@@ -1,0 +1,18 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" parent="1" vertex="1">
+            <br.com.upf.beans.ClassModel as="value" checkName="1" containsAttributes="1" name="LIVRO">
+                <Array as="attributes">
+                    <br.com.upf.beans.Attribute name="id" resume=" + id : Integer" size="0" sqlType="INT" umlType="Integer" visibility="public"/>
+                    <br.com.upf.beans.Attribute characterValue="1" name="status" resume=" + status : String" size="50" sqlType="VARCHAR" umlType="String" visibility="public"/>
+                </Array>
+                <br.com.upf.beans.DiagramOfStateModel as="diagramOfStateModel"/>
+            </br.com.upf.beans.ClassModel>
+            <mxGeometry as="geometry" height="140.0" width="150.0" x="410.0" y="230.0">
+                <mxRectangle as="alternateBounds" height="25.0" width="140.0"/>
+            </mxGeometry>
+        </mxCell>
+    </root>
+</mxGraphModel>

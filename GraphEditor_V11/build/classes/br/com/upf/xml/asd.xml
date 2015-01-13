@@ -1,0 +1,22 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" parent="1" vertex="1">
+            <br.com.upf.beans.ClassModel as="value" checkName="1" id="2" name="A">
+                <br.com.upf.beans.DiagramOfStateModel as="diagramOfStateModel"/>
+            </br.com.upf.beans.ClassModel>
+            <mxGeometry as="geometry" height="140.0" width="150.0" x="190.0" y="150.0">
+                <mxRectangle as="alternateBounds" height="25.0" width="140.0"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="3" parent="1" vertex="1">
+            <br.com.upf.beans.ClassModel as="value" checkName="1" id="3" name="B">
+                <br.com.upf.beans.DiagramOfStateModel as="diagramOfStateModel"/>
+            </br.com.upf.beans.ClassModel>
+            <mxGeometry as="geometry" height="140.0" width="150.0" x="440.0" y="160.0">
+                <mxRectangle as="alternateBounds" height="25.0" width="140.0"/>
+            </mxGeometry>
+        </mxCell>
+    </root>
+</mxGraphModel>

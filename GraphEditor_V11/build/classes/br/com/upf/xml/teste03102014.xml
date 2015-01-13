@@ -1,0 +1,34 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" parent="1" vertex="1">
+            <br.com.upf.beans.ClassModel as="value" checkName="1" containsAttributes="1" name="LIVRO">
+                <Array as="attributes">
+                    <br.com.upf.beans.Attribute UMLType="Integer" name="id" resume=" + id : Integer"/>
+                    <br.com.upf.beans.Attribute SQLType="VARCHAR" UMLType="String" name="status" resume=" + status : String" size="50"/>
+                    <br.com.upf.beans.Attribute SQLType="VARCHAR" UMLType="String" name="autor" resume=" + autor : String" size="50"/>
+                    <br.com.upf.beans.Attribute SQLType="VARCHAR" UMLType="String" name="titulo" resume=" + titulo : String" size="50"/>
+                </Array>
+                <br.com.upf.beans.DiagramOfStateModel as="diagramOfStateModel"/>
+            </br.com.upf.beans.ClassModel>
+            <mxGeometry as="geometry" height="140.0" width="150.0" x="290.0" y="150.0">
+                <mxRectangle as="alternateBounds" height="25.0" width="140.0"/>
+            </mxGeometry>
+        </mxCell>
+        <mxCell id="3" parent="1" vertex="1">
+            <br.com.upf.beans.ClassModel as="value" checkName="1" containsAttributes="1" id="1" name="REVISTA">
+                <Array as="attributes">
+                    <br.com.upf.beans.Attribute UMLType="Integer" name="id" resume=" + id : Integer"/>
+                    <br.com.upf.beans.Attribute SQLType="VARCHAR" UMLType="String" name="autor" resume=" + autor : String" size="50"/>
+                    <br.com.upf.beans.Attribute SQLType="VARCHAR" UMLType="String" name="status" resume=" + status : String" size="50"/>
+                    <br.com.upf.beans.Attribute SQLType="BOOLEAN" UMLType="Boolean" name="periodico" resume=" + periodico : Boolean"/>
+                </Array>
+                <br.com.upf.beans.DiagramOfStateModel as="diagramOfStateModel"/>
+            </br.com.upf.beans.ClassModel>
+            <mxGeometry as="geometry" height="190.0" width="150.0" x="490.0" y="150.0">
+                <mxRectangle as="alternateBounds" height="25.0" width="140.0"/>
+            </mxGeometry>
+        </mxCell>
+    </root>
+</mxGraphModel>

@@ -1,0 +1,24 @@
+<mxGraphModel>
+    <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="2" parent="1" vertex="1">
+            <br.com.upf.beans.ClassModel as="value" checkName="1" containsAttributes="1" initializedDiagramOfStateModel="1" name="Livro">
+                <Array as="attributes">
+                    <br.com.upf.beans.Attribute name="id" resume=" + id : Integer" size="0" sqlType="INT" umlType="Integer" visibility="public"/>
+                    <br.com.upf.beans.Attribute characterValue="1" name="status" resume=" + status : String" size="50" sqlType="VARCHAR" umlType="String" visibility="public"/>
+                </Array>
+                <br.com.upf.beans.DiagramOfStateModel as="diagramOfStateModel" containsFinalStates="1" containsInitialState="1" initialized="1">
+                    <br.com.upf.beans.InitialState as="initialState" id="0" name="Estado Inicial"/>
+                    <Array as="finalStates">
+                        <br.com.upf.beans.FinalState id="2" name="Estado Final"/>
+                        <br.com.upf.beans.FinalState id="2" name="Estado Final"/>
+                    </Array>
+                </br.com.upf.beans.DiagramOfStateModel>
+            </br.com.upf.beans.ClassModel>
+            <mxGeometry as="geometry" height="200.0" width="200.0" x="300.0" y="110.0">
+                <mxRectangle as="alternateBounds" height="100.0" width="200.0"/>
+            </mxGeometry>
+        </mxCell>
+    </root>
+</mxGraphModel>
